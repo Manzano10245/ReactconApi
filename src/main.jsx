@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
 import App from './App';
+import { CarritoProvider } from './context/CarritoContext';
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+  <React.StrictMode>
+    <CarritoProvider>
+      <BrowserRouter> 
+        <App />
+      </BrowserRouter>
+    </CarritoProvider>
+  </React.StrictMode>
 );

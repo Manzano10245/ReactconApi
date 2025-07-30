@@ -1,8 +1,10 @@
 .product-list {
-  padding: 20px;
+  
+  padding: 30px;
 }
 
 .product-container {
+  
   display: flex;
   gap: 20px;
   flex-wrap: wrap;

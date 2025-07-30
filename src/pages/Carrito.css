@@ -1,0 +1,49 @@
+.carrito {
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.lista-productos {
+  list-style: none;
+  padding: 0;
+}
+
+.producto-item {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+}
+
+.producto-info h3 {
+  margin: 0;
+}
+
+.acciones {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.cantidad {
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.eliminar {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.comprar-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: seagreen;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}

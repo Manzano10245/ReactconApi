@@ -8,6 +8,7 @@ const Navbar = () => {
       <Link to="/productos" style={{ marginRight: '10px', color: 'white' }}>Productos</Link>
       <Link to="/sedes" style={{ marginRight: '10px',  color: 'white' }}>Sedes</Link>
       <Link to="/usuarios" style={{ marginRight: '10px', color: 'white' }}>Usuarios</Link>
+      <Link to="/carrito" style={{ marginRight: '10px', color: 'white' }}>Carrito</Link>
 
     </nav>
   );
